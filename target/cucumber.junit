@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.631013">
+<testcase classname="Gmail Login feature" name="Login to Gmail with Correct credentials" time="6.631013">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.gmail.GmailProject.GmailLoginPage.enteremail(GmailLoginPage.java:13)&#13;&#10;&#9;at stepDefinationOfGmailLogin.StepDefination.user_enters_as_emailId_and_as_password(StepDefination.java:22)&#13;&#10;&#9;at ✽.When user enters &quot;karmakar9177@gmail.com&quot; as emailId(Login.feature:5)&#13;&#10;"><![CDATA[Given user is on Gmail login page...........................................passed
+When user enters "karmakar9177@gmail.com" as emailId........................failed
+And user clicks on next button..............................................skipped
+Then user is on password page...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.gmail.GmailProject.GmailLoginPage.enteremail(GmailLoginPage.java:13)
+	at stepDefinationOfGmailLogin.StepDefination.user_enters_as_emailId_and_as_password(StepDefination.java:22)
+	at ✽.When user enters "karmakar9177@gmail.com" as emailId(Login.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

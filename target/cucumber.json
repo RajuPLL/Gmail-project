@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to Gmail with Correct credentials",
+        "description": "",
+        "id": "gmail-login-feature;login-to-gmail-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6612254224,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Gmail login page",
+            "match": {
+              "location": "StepDefination.user_is_on_gmail_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18759012,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.gmail.GmailProject.GmailLoginPage.enteremail(GmailLoginPage.java:13)\r\n\tat stepDefinationOfGmailLogin.StepDefination.user_enters_as_emailId_and_as_password(StepDefination.java:22)\r\n\tat ✽.When user enters \"karmakar9177@gmail.com\" as emailId(Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enters \"karmakar9177@gmail.com\" as emailId",
+            "match": {
+              "arguments": [
+                {
+                  "val": "karmakar9177@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefination.user_enters_as_emailId_and_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on next button",
+            "match": {
+              "location": "StepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on password page",
+            "match": {
+              "location": "StepDefination.user_is_on_gmail_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Login feature",
+    "description": "",
+    "id": "gmail-login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
